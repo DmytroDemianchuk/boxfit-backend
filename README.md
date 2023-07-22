@@ -8,8 +8,8 @@ POST /auth/sign-up
 Example input:
 ```
 {
-    "firstname" : "Dmytro",
-    "secondname": "Demianchuk",
+	"firstname" : "Dmytro",
+	"secondname": "Demianchuk",
 	"email": "dmytro@gmail.com",
 	"password": "dmytro123"
 } 
@@ -34,7 +34,10 @@ Example Response:
 ```
 
 ## Start and run
-
+```
 make build - to build app
+```
+```
 make run - to run app
+```
 
