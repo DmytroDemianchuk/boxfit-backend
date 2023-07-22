@@ -34,10 +34,12 @@ Example Response:
 ```
 
 ## Start and run
+To build app
 ```
-make build - to build app
+make build
 ```
+To run app
 ```
-make run - to run app
+make run 
 ```
 
