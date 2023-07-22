@@ -3,7 +3,7 @@
 
 ## API:
 
-POST /auth/sign/up
+POST /auth/sign-up
 
 Example input:
 ```
@@ -34,7 +34,7 @@ Example Response:
 ```
 
 ## Start and run
-```
-docker run --rm -d --name audit-log-mongo \
--p 27017:27017 mongo:latest
-```
+
+make build - to build app
+make run - to run app
+

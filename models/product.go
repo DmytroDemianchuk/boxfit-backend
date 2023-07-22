@@ -13,6 +13,7 @@ type Product struct {
 	Color       string
 	Number      uint16
 	Price       uint32
+	Image       []byte
 	CreatedAt   time.Time
 	UpdatedAt   time.Time
 }
